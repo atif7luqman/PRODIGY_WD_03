@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+    background-color:antiquewhite;
+  }
+
+  label, input, button {
+    cursor: pointer;
+  }
+
+  .player-names {
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .board {
+    display: block;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eed8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .status {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color:chocolate;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 8px;
+  }
